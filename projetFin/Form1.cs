@@ -17,6 +17,7 @@ namespace projetFin
 
          List<Administrador> datotemp = new List<Administrador>();
          List<Administrador> agregar = new List<Administrador>();
+        List<Administrador> listem = new List<Administrador>();
 
         public Form1()
         {
@@ -50,8 +51,6 @@ namespace projetFin
         private void button1_Click(object sender, EventArgs e)
         {
 
-            
-
             Administrador adtemp = new Administrador();
             adtemp.Nombreproducto = textBox1.Text;
             adtemp.Precioproducto = textBox2.Text;
@@ -82,7 +81,7 @@ namespace projetFin
 
         private void button2_Click(object sender, EventArgs e)
         {
-            List<Administrador> listem = new List<Administrador>();
+           
 
             string fileName = "productos.txt"; 
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read);

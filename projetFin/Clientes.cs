@@ -11,11 +11,11 @@ namespace projetFin
         string nombre;
         string apellido;
         string nit;
-       
-
+        DateTime fecha;
+        
         public string Nombre { get => nombre; set => nombre = value; }
         public string Apellido { get => apellido; set => apellido = value; }
         public string Nit { get => nit; set => nit = value; }
-        public DateTime Fechadecompra { get => fechadecompra; set => fechadecompra = value; }
+        public DateTime Fecha { get => fecha; set => fecha = value; }
     }
 }

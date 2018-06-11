@@ -8,8 +8,9 @@ namespace projetFin
 {
     class Ventas
     {
+     
         string ventas;
-        string 
+        string producto;
         string subtotal;
             
     }
